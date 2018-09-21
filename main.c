@@ -7,12 +7,12 @@ int main() {
   int num = 0;
   int res = 0;
   printf("Enter number to check prime : ");
-  scanf("%d", & num);
+  scanf("%d", &num);
   res = checkPrime(num);
   if (res) {
-    printf("Entered number %d is prime.\n");
+    printf("Entered number %d is prime.\n",num);
   } else {
-    printf("Entered number %d is not prime.\n");
+    printf("Entered number %d is not prime.\n",num);
   }
 
   return 0;
